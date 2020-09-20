@@ -3,6 +3,7 @@
 	* tel: +375333257392
 	* telegram : @inariari
 	* e-mail: inariari@outlook.com
+	* reserve e-mail: grayson.us@gmail.com
 3. Hi. My name is Ilya Arkdzyeu, 23 year's old. I started at RSschool 
 4. My skills :
 	HTML/CSS, JavaScript, GIT, VSCode, BEM
