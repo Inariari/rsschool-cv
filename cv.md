@@ -8,5 +8,5 @@
 	HTML/CSS, JavaScript, GIT, VSCode, BEM
 5. none
 6. none
-7. Gomel Trade-Economical Colledge 2018
+7. Gomel Trade-Economical Colledge 2018,RSSchoold 2020Q3, Udemy
 8. English - A1
