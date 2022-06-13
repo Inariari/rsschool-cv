@@ -1,1 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* 
+
+* Всё подгоняется в цвета: голубой, розовый, серый, белый 
+! Всё кратно 20px
+? Но возможен пересмотр в пользу 20px
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 1px solid blueviolet;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+body {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+h1 {
+  display: none;
+}
+
+.colors--setup {
+  display: flex;
+}
+
+.c1 {
+  background-color: #f02da94d;
+  width: 100px;
+  height: 50px;
+}
+
+.c2 {
+  background-color: #2dc9f04d;
+  width: 100px;
+  height: 50px;
+}
+
+.c3 {
+  background-color: #00fffb5d;
+  width: 100px;
+  height: 50px;
+}
+
+.c4 {
+  background-color: rgba(45, 201, 240, 0.3);
+  width: 100px;
+  height: 50px;
+}
+
+.c5 {
+  background-color: rgba(45, 201, 240, 0.3);
+  width: 100px;
+  height: 50px;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: end;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+aside {
+  width: 500px
+}
+
+
+.about li {
+
+  height: 40px;
+
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img{
+  height: 60px;
+}
