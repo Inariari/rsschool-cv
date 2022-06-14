@@ -34,11 +34,11 @@ body {
 }
 
 .wraper {
-  background-color: #fff;
+  /* background-color: #fff; */
   margin: 0 auto;
   max-width: 1920px;
-  border-radius: 40px;
-  border: 40px solid transparent;
+  /* border-radius: 40px; */
+  /* border: 40px solid transparent; */
 }
 
 
@@ -93,6 +93,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  
 }
 
 .about--code {
@@ -103,6 +104,7 @@ main {
 }
 
 .about--code pre {
+  border: 2px solid transparent;
   border-radius: 40px;
   width: 650px;
   height: 300px;
@@ -111,7 +113,21 @@ main {
 }
 
 aside {
-  width: 400px
+  max-width: 400px;
+  min-width: 350px;
+  background-color: #fff;
+  border-radius: 40px;
+  border: 40px solid transparent;
+  margin: 20px;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 40px;
+  border: 40px solid transparent;
+  margin: 20px;
+  max-width: 60vw;
+  min-width: 400px;
 }
 
 
@@ -130,4 +146,12 @@ footer {
 
 footer img {
   height: 60px;
+}
+
+.test{
+  font-size: 2rem;
+}
+
+.test2{
+  font-size: 200%
 }
