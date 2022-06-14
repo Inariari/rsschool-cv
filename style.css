@@ -1,1 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/*
+
+* Всё подгоняется в цвета: голубой, розовый, серый, белый
+! Всё кратно 20px
+? Но возможен пересмотр в пользу 20px
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid blueviolet; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  /* background: -webkit-linear-gradient(157deg, #f02da94d, #2dc9f04d, #00fffb5d); */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(157deg, #f02da94d, #2dc9f04d, #00fffb5d); */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(150deg, #f02da94d, #2dc9f04d, #00fffb5d, #f6bf4b);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(150deg, #f02da94d, #2dc9f04d, #00fffb5d, #f6bf4b5d);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+}
+
+.wraper {
+  /* background-color: #fff; */
+  margin: 0 auto;
+  max-width: 1920px;
+  /* border-radius: 40px; */
+  /* border: 40px solid transparent; */
+}
+
+
+h1 {
+  display: none;
+}
+
+.colors--setup {
+  display: flex;
+}
+
+.c1 {
+  background-color: #f02da94d;
+  width: 100px;
+  height: 50px;
+}
+
+.c2 {
+  background-color: #2dc9f04d;
+  width: 100px;
+  height: 50px;
+}
+
+.c3 {
+  background-color: #00fffb5d;
+  width: 100px;
+  height: 50px;
+}
+
+.c4 {
+  background-color: #00979d;
+  width: 100px;
+  height: 50px;
+}
+
+.c5 {
+  background-color: #2dc9f04d;
+  width: 100px;
+  height: 50px;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  top: 0;
+  flex-wrap: wrap;
+  background-color: #ffffff5d;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  /* background-color: #fff; */
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 15px;
+  /* border: 2px solid #006781; */
+}
+
+header nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#006781
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.about--code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 50px 0;
+}
+
+.about--code pre {
+  border: 2px solid transparent;
+  border-radius: 40px;
+  height: 300px;
+  background-color: #eeeeee66;
+  padding: 50px;
+  margin: 10px;
+}
+
+aside {
+  max-width: 400px;
+  min-width: 350px;
+  background-color: #fff;
+  border-radius: 40px;
+  border: 40px solid transparent;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside img {
+  border-radius: 10%;
+  margin: 30px;
+}
+
+section {
+  max-width: 60vw;
+  min-width: 400px;
+}
+
+section article {
+  background-color: #fff;
+  border-radius: 40px;
+  border: 40px solid transparent;
+  margin: 20px;
+  min-width: 500px;
+}
+
+
+.about li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  min-height: 60px;
+  border: 1px solid #00fffb5d;
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img {
+  height: 60px;
+}
+
+.test {
+  font-size: 2rem;
+}
+
+.test2 {
+  font-size: 200%
+}
+
+
+
+.hljs,
+.hljs span {
+  font-size: 1vw;
+  font-family: monospace;
+}
