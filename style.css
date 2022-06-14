@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-/* 
+/*
 
-* Всё подгоняется в цвета: голубой, розовый, серый, белый 
+* Всё подгоняется в цвета: голубой, розовый, серый, белый
 ! Всё кратно 20px
 ? Но возможен пересмотр в пользу 20px
 
@@ -14,6 +14,7 @@
   /* outline: 1px solid blueviolet; */
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,7 +30,6 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(150deg, #f02da94d, #2dc9f04d, #00fffb5d, #f6bf4b5d);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  scroll-behavior: smooth;
   position: relative;
 }
 
@@ -75,17 +75,35 @@ h1 {
 }
 
 .c5 {
-  background-color: rgba(45, 201, 240, 0.3);
+  background-color: #2dc9f04d;
   width: 100px;
   height: 50px;
 }
 
 header {
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: end;
   position: sticky;
   top: 0;
+  flex-wrap: wrap;
+  background-color: #ffffff5d;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  /* background-color: #fff; */
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 15px;
+  /* border: 2px solid #006781; */
+}
+
+header nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#006781
 }
 
 main {
@@ -93,7 +111,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  
+
 }
 
 .about--code {
@@ -106,10 +124,10 @@ main {
 .about--code pre {
   border: 2px solid transparent;
   border-radius: 40px;
-  width: 650px;
   height: 300px;
   background-color: #eeeeee66;
   padding: 50px;
+  margin: 10px;
 }
 
 aside {
@@ -119,22 +137,38 @@ aside {
   border-radius: 40px;
   border: 40px solid transparent;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+aside img {
+  border-radius: 10%;
+  margin: 30px;
 }
 
 section {
-  background-color: #fff;
-  border-radius: 40px;
-  border: 40px solid transparent;
-  margin: 20px;
   max-width: 60vw;
   min-width: 400px;
 }
 
+section article {
+  background-color: #fff;
+  border-radius: 40px;
+  border: 40px solid transparent;
+  margin: 20px;
+  min-width: 500px;
+}
+
 
 .about li {
-
-  height: 40px;
-
+  display: flex;
+  align-items: center;
+  list-style: none;
+  min-height: 60px;
+  border: 1px solid #00fffb5d;
+  border-radius: 15px;
+  margin: 10px 0;
+  padding: 0 20px;
 }
 
 footer {
@@ -148,10 +182,18 @@ footer img {
   height: 60px;
 }
 
-.test{
+.test {
   font-size: 2rem;
 }
 
-.test2{
+.test2 {
   font-size: 200%
+}
+
+
+
+.hljs,
+.hljs span {
+  font-size: 1vw;
+  font-family: monospace;
 }
